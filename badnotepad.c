@@ -36,7 +36,6 @@ int main(int argc, char *argv[]){
     PROCESS_INFORMATION pi;
     char *msg = "Shelled";
 
-    printf("%x\n", 'a');
     ZeroMemory( &si, sizeof(si) );
     si.cb = sizeof(si);
     ZeroMemory( &pi, sizeof(pi) );
